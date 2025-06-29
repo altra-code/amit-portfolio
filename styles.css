@@ -369,7 +369,7 @@ nav ul li a:hover {
 
 .details.active {
     display: block;
-    max-height: 240px;
+    max-height: 260px;
     margin-top: 10px;
 }
 
