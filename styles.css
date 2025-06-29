@@ -180,8 +180,8 @@ nav ul li a:hover {
 
 /* Hero Section */
 #hero {
-    background: url('background-cracker1.png') no-repeat center/cover;
-    /* background-color: #3498db; */
+    background-image: url('background-cracker1.png') no-repeat center/cover;
+    /*background-color: #3498db;*/ 
     color: white; 
     text-align: center;
     padding: 150px 0 100px;
