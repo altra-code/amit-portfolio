@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Amit Portfolio">
+    <meta name="Author" content="Amit Kumar">
+    <title>Amit Portfolio</title>
+    <link rel="icon" type="image/png" href="assets\ak logo.png"></link>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js" integrity="sha512-tQQXRDB2wEmuJGtFrmmoFYzNTq8StA1XJrfO0OQbbTxd9G0CwaTDL6/C1y805IlvBVrMwOqob1kf6r/2U5XXVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">Amit <i id="code" class="fas fa-code"></i> <span id="logo">Kumar</span></div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#journey">Journey</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+
+            <!-- <div class="dark-mode-toggle">
+                <label>
+                    <input type="checkbox" id="darkModeSwitch">
+			        <span class="slider"></span>   
+                </label>
+            </div> -->
+
+            <h1>Hello, I'm <span class="multiple-text"></span></h1>
+            <p>A passionate web developer creating beautiful and functional websites</p>
+            <a href="#contact" id="hero-btn" class="btn">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="assets\amit 1.jpg" alt="" class="about-img" />
+                <div class="about-text">
+                    <p>Hello! I'm Amit, a fresher web developer building responsive and user-friendly websites. I specialize in front-end development but also have experience with back-end technologies.</p>
+                    <p>When you can find me as reading tech blogs, or experimenting on websites. I believe in continuous learning and always stay updated with the latest web technologies.</p>
+                    <p>My goal is to create digital experiences that are not only visually appealing but also accessible and intuitive for all users.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Section -->
+    <section id="journey">
+        <div class="container">
+            <h2>My Journey</h2>
+            <p class="subtitle">Education and Professional Growth</p>
+
+            <div class="journey-columns">
+                <!-- Left Column: Education -->
+                <div class="journey-part education">
+                    <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2023 - 2027</div>
+                            <div class="timeline-content">
+                                <h4>Bachelor's (B-Tech CSE) </h4>
+                                <p>Jagannath University jaipur</p>
+                                <button class="journey-btn read-more">Read More</button>
+                                <div class="details">
+                                    <p>Learning Data Science, Full-Stack Web Development, DSA and Artificial Intelligence. This Course Is now ongoing</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2021 - 2023</div>
+                            <div class="timeline-content">
+                                <h4>S.Secondary In Science Stream</h4>
+                                <p>BSEB Patna</p>
+                                <button class="journey-btn read-more">Read More</button>
+                                <div class="details">
+                                    <p>Completed with all degnity and obtained marks 386/500. Top 3 in class.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2020 - 2021</div>
+                            <div class="timeline-content">
+                                <h4>Secondary Education</h4>
+                                <p>BSEB Patna</p>
+                                <button class="journey-btn read-more">Read More</button>
+                                <div class="details">
+                                    <p>Completed with all degnity and obtained marks 440/500. Second Toper of 2021 in School.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add more education items -->
+                    </div>
+                </div>
+
+
+                <!-- Center Column: Courses -->
+                <div class="journey-part course">
+                    <h3><i class="fa-solid fa-award"></i> Courses</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">July - December 2024</div>
+                            <div class="timeline-content">
+                                <h4>Indian knowledge System</h4>
+                                <p>IIT Kharagpur</p>
+                                <button class="journey-btn read-more">Read More</button>
+                                <div class="details">
+                                    <p>A online Certification Course provided by Swayam (NPTEL) or IIT Kharagpur about Indian Knowledge System.</p>
+                                    <a href="#" id="hero-btn" class="journey-btn more-details">View Certificate</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">Dec 2021 - March 2022</div>
+                            <div class="timeline-content">
+                                <h4>kushal Yuva Program</h4>
+                                <p>Bihar Skills Development Mission</p>
+                                <button class="journey-btn read-more">Read More</button>
+                                <div class="details">
+                                    <p>A 3 months skills development Government program for basic knowledge of Computer, Learn about MicroSoft Office, Exploring Google products and Typing .</p>
+                                    <a href="#" id="hero-btn" class="journey-btn more-details">View Certificate</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">January 2022 - March 2022</div>
+                            <div class="timeline-content">
+                                <h4>English Speaking Course</h4>
+                                <p>LearnVern</p>
+                                <button class="journey-btn read-more">Read More</button>
+                                <div class="details">
+                                    <p>Build Some Web projects such Music Player, portfolio, HomePage etc. </p>
+                                    <a href="#" id="hero-btn" class="journey-btn more-details">View Certificate</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add more Courses items -->
+                    </div>
+                </div>
+
+                <!-- Right Column: Internships -->
+                <div class="journey-part internship">
+                    <h3><i class="fas fa-briefcase"></i> Internships</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">Summer Internship 2024</div>
+                            <div class="timeline-content">
+                                <h4>Python Essentials</h4>
+                                <p>CISCO Networking Academy</p>
+                                <button class="journey-btn read-more">Read More</button>
+                                <div class="details">
+                                    <!-- <p>Built responsive UIs using React.js and optimized load times by 30%.</p> -->
+                                    <a href="#" id="hero-btn" class="journey-btn more-details">View Certificate</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">Summer internship 2024</div>
+                            <div class="timeline-content">
+                                <h4>Frontend Developer Intern</h4>
+                                <p>IBM ScillsBuild</p>
+                                <button class="journey-btn read-more">Read More</button>
+                                <div class="details">
+                                    <p>Build Some Web projects such Music Player, portfolio, HomePage etc. </p>
+                                    <a href="#" id="hero-btn" class="journey-btn more-details">View Certificate</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">Summer internship 2025</div>
+                            <div class="timeline-content">
+                                <h4>Networking Intern</h4>
+                                <p>CISCO Networking Academy</p>
+                                <button class="journey-btn read-more">Read More</button>
+                                <div class="details">
+                                    <p>Building projects such Home Network Setup, Office Network Setup etc. </p>
+                                    <a href="#" id="hero-btn" class="journey-btn more-details">View Certificate</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add more internship items -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <i class="fa-solid fa-c"></i>
+                    <h3>C</h3>
+                    <!-- <p>Basics knowledge and practices</p> -->
+                </div>
+                <div class="skill">
+                    <i class="c++" style="font-family: 'Arial Black'; font-size: 35px;">C++</i>
+                    <h3>C++</h3>
+                    <!-- <p>Basics knowledge and practices</p> -->
+                </div>
+                <div class="skill">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <!-- <p>Semantic markup, accessibility, SEO best practices</p> -->
+                </div>
+                <div class="skill">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <!-- <p>Flexbox, Grid, animations, responsive design</p> -->
+                </div>
+                <div class="skill">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <!-- <p>ES6+, DOM manipulation, async programming</p> -->
+                </div>
+                <div class="skill">
+                    <i class="fas fa-database"></i>
+                    <h3>MYSQL</h3>
+                    <!-- <p>NoSQL databases, CRUD operations</p> -->
+                </div>
+                <div class="skill">
+                    <i class="fa-brands fa-python"></i>
+                    <h3>Python</h3>
+                    <!-- <p>NoSQL databases, CRUD operations</p> -->
+                </div>
+                <div class="skill">
+                    <i class="fa-brands fa-java"></i>
+                    <h3>Java</h3>
+                    <!-- <p>Basics knowledge and practices</p> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="assets\flipkart clone.jpg" alt="FlipKart Clone Website" class="project-img">
+                    <div class="project-info">
+                        <h3>E-commerce Website</h3>
+                        <p>My first project as a intern build Flipkart-clone-project. During building this project i have learnt more about web development. There are some designing issues in this project while runnig online but no issue while it running in local server.</p>
+                        <!-- <p>A fully responsive online store with product filtering, cart functionality, and checkout process.</p> -->
+                        <a href="https://cswithak.github.io/Flipkart-clone-project-/" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets\calculator.png" alt="calculator web app" class="project-img">
+                    <div class="project-info">
+                        <h3>Calculator web-app</h3>
+                        <p>A productive application for simple calculation and also user friendly interface.</p>
+                        <a href=" https://cswithak.github.io/Calculator/" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets\home.png" alt="browser HomePage" class="project-img">
+                    <div class="project-info">
+                        <h3>Web Dashboard</h3>
+                        <p>A Web homepage with Real-time Digital clock and weather forecast using a weather API.</p>
+                        <a href="https://cswithak.github.io/home/" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <div class="container">
+            <h2>My Resume</h2>
+            <p>Download my resume to know more about my professional experience and education.</p>
+            <a href="#" class="btn" id="resume-btn" download="Amit-Resume.pdf">Download Resume</a>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team">
+        <div class="container">
+            <h2>Our Team</h2>
+            <p>Meet the talented individuals who make our projects successful</p>
+            <div class="team-wrapper">
+                <div class="team-container" id="teamSlider">
+                    <div class="team-member">
+                        <img src="assets\team.jpg" alt="Team Member" class="member-img">
+                        <h3 class="member-name">--</h3>
+                        <p class="member-role">Lead Developer</p>
+                        <button class="member-info-btn">About --</button>
+                        <div class="member-details">
+                            <p>-- has over 8 years of experience in full-stack development. She specializes in React and Node.js applications.</p>
+                            <p><strong>Skills:</strong> JavaScript, React, Node.js, MongoDB</p>
+                            <div class="social-media">
+                                <a href="#" target="_blank" class="linkedin" aria-label="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" target="_blank" class="github" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a id="circle" href="#" target="_blank" class="youtube" aria-label="WhatsApp">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                                <a href="#" target="_blank" class="twitter" aria-label="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" target="_blank" class="instagram" aria-label="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" target="_blank" class="facebook" aria-label="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="team-member">
+                        <img src="assets\team.jpg" alt="Team Member" class="member-img">
+                        <h3 class="member-name">--</h3>
+                        <p class="member-role">UI/UX Designer</p>
+                        <button class="member-info-btn">About --</button>
+                        <div class="member-details">
+                            <p>-- is our creative genius with 6 years of experience designing intuitive user interfaces.</p>
+                            <p><strong>Skills:</strong> Figma, Adobe XD, User Research, Prototyping</p>
+                            <div class="social-media">
+                                <a href="#" target="_blank" class="linkedin" aria-label="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" target="_blank" class="github" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a id="circle" href="#" target="_blank" class="youtube" aria-label="WhatsApp">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                                <a href="#" target="_blank" class="twitter" aria-label="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" target="_blank" class="instagram" aria-label="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" target="_blank" class="facebook" aria-label="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="team-member">
+                        <img src="assets\team.jpg" alt="Team Member" class="member-img">
+                        <h3 class="member-name">--</h3>
+                        <p class="member-role">Project Manager</p>
+                        <button class="member-info-btn">About --</button>
+                        <div class="member-details">
+                            <p>-- keeps our projects on track with her exceptional organizational skills and 7 years of PM experience.</p>
+                            <p><strong>Skills:</strong> Agile, Scrum, JIRA, Team Leadership</p>
+                            <div class="social-media">
+                                <a href="#" target="_blank" class="linkedin" aria-label="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" target="_blank" class="github" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a id="circle" href="#" target="_blank" class="youtube" aria-label="WhatsApp">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                                <a href="#" target="_blank" class="twitter" aria-label="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" target="_blank" class="instagram" aria-label="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" target="_blank" class="facebook" aria-label="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="team-member">
+                        <img src="assets\team.jpg" alt="Team Member" class="member-img">
+                        <h3 class="member-name">--</h3>
+                        <p class="member-role">DevOps Engineer</p>
+                        <button class="member-info-btn">About --</button>
+                        <div class="member-details">
+                            <p>-- ensures our applications run smoothly in production with his expertise in cloud infrastructure.</p>
+                            <p><strong>Skills:</strong> AWS, Docker, Kubernetes, CI/CD</p>
+                            <div class="social-media">
+                                <a href="#" target="_blank" class="linkedin" aria-label="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" target="_blank" class="github" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a id="circle" href="" target="_blank" class="youtube" aria-label="WhatsApp">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                                <a href="#" target="_blank" class="twitter" aria-label="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" target="_blank" class="instagram" aria-label="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" target="_blank" class="facebook" aria-label="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-nav" id="teamDots">
+                    <!-- Dots will be added by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-form">
+                <form id="contactForm">
+                  <h1 class="getInTouch">Get In Touch</h1>
+                    <div class="form-group">
+                        <label for="name">NAME:-</label>
+                        <input type="text" id="name" name="name"  placeholder="Your Name. . . . ." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mobile">MOBILE:-</label>
+                        <input type="tel" id="mobile" name="mobile" placeholder="Your Mobile no. . . . ." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">EMAIL:-</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email Id. . . . ." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">MESSAGE:-</label>
+                        <textarea id="message" name="message" placeholder="Write Your Suggestion OR Messages. . . . ." required></textarea>
+                    </div>
+                    <button id="button" type="submit">S U B_M I T</button>
+                </form>
+                <div id="status"></div>
+            </div>
+
+            <div class="social-media">
+                <a id="circle" href="https://whatsapp.com/channel/0029ValAaYT7z4kfo9H56m1K" target="_blank" class="whatsapp" aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://linkedin.com/in/CsWithAk" target="_blank" class="linkedin" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/CsWithAk" target="_blank" class="github" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a id="circle" href="https://www.youtube.com/@CsWithAk" target="_blank" class="youtube" aria-label="WhatsApp">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://x.com/CsWithAk" target="_blank" class="twitter" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/cswithak" target="_blank" class="instagram" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://facebook.com/CsWithAk" target="_blank" class="facebook" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- to top button  -->
+    <button id="toTopBtn" title="Go to top">
+        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 <a href="https://www.instagram.com/cswithak"><span id="f1">Amit</span> <span id="f2">Kumar</span></a> | All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Include EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <!-- JavaScript for Menu Toggle -->
+    <script src="script.js"></script>
+</body>
+</html>
